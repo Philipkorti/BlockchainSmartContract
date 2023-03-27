@@ -29,7 +29,7 @@ public class Blockchain{
         this.chain = new Chain(NETWORK_ID);
         this.blockCache = new ConcurrentHashMap<>();
         this.transactionCache = new ConcurrentHashMap<>();
-        this.difficulty = new BigInteger("16000");
+        this.difficulty = new BigInteger("-57895550000000000000000000000000000000000000000000000000000000000000000000000");
     }
 
     public void addBlock(Block block){

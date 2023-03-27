@@ -24,7 +24,7 @@ public class Main implements MinerListener {
     }
     public static void setUp(){
         PendingTransaction trx = DependencyManager.getPendingTransactions();
-        for(int i = 0; i< 100; i++){
+        for(int i = 0; i< 1000; i++){
             String sender = "testSender" + i;
             String receiver = "testReceiver" +i;
             double amount = i * 1.1;
